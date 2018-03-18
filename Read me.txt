@@ -1,0 +1,57 @@
+﻿Ellie Mae Developer Assessment
+  
+
+
+
+Welcome!
+
+
+Getting started
+
+
+There are 4 file versions of the Ellie Mae homepage design in this directory, Sketch, PSD, PDF, and JPEG. All assets have been extracted from the Sketch file and placed in the images folder. To save time, the Frutiger font has not been provided. Instead, please use Open Sans from Google Fonts. 
+
+
+The design should occupy 100% of the user’s browser width. However, the constraints for the content should be no wider than 1440px. See the current Ellie Mae home page as an example of width constraints for content. You’ll see that background images extend to 100% of the browser window’s width, however the content is centered and does not extend beyond the 1440px constraint.
+
+
+The links and buttons do not need to go anywhere. 
+
+
+You do not need to include the header and footer.
+
+
+The estimated time that it should take to complete this assessment is 4 - 5 hours.
+
+
+Please return the assessment within 5 business days. 
+
+
+Objective
+
+
+You have received an approved home page design for elliemae.com from our design team. Your objective is to implement this new design using the assets provided. 
+
+
+Requirements
+
+
+* Refrain from using Bootstrap or any other UI frameworks
+* Use SASS for compiling CSS
+* There is no javascript required for this assessment
+* Your implementation needs to be responsive for both tablet and mobile
+
+
+Developer checklist
+
+
+* The implementation is responsive
+* The implementation is cross-browser friendly (we support down to IE9)
+* The implementation matches the design
+* The implementation follows the above requirements
+
+
+Deliverables due
+
+
+Please package your final deliverable in a zip file containing all necessary files.
