@@ -1,3 +1,11 @@
+$base-font-family-sans: "Open Sans";
+
+
+@import "helpers/functions";
+@import "helpers/mixins";
+@import "helpers/mixins-flex";
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,9 +31,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol, ul {
   list-style: none;
 }
@@ -43,12 +49,12 @@ table {
 }
 
 body{
-  font-family: 'Open Sans',
-  sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin:0px;
   padding:0px;
   width:100%;
 }
+
 .logo{
   background: transparent url('../svgs/elliemae-no-tag-logo.svg') 0 0 no-repeat;
   background-size: contain;
@@ -58,7 +64,9 @@ body{
   width: 184px !important;
   display: inline-flex;
 }
+
 .slogan{
+  font-family: 'Open Sans:Light';
   color: grey;
   font-size: 0.8em;
   display: inline-block;
@@ -67,6 +75,7 @@ body{
   top: 15px;
 
 }
+
 .login{
   float: right;
   top: 30px;
@@ -78,6 +87,7 @@ body{
   justify-content: space-around;
   font-size: 0.8em;
 }
+
 .login div{
   padding: 10px;
 }
@@ -87,9 +97,9 @@ body{
   position: relative;
   height: 20px;
   color: #009dc6;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
+  @include flex;
+  @include flex-flow-row;
+  @include flex-justify-content-space-around;
 }
 .banner-container{
   background-image: url('../img/background/rooftop_blue_background.png');
@@ -98,60 +108,102 @@ body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  display: flex;
-  flex-flow:column;
-  justify-content: space-around;
-
+  @include flex;
+  height: 100%;
+  width: 100%;
 }
+
 .banner-title {
   color: white;
-  margin-left: 7%;
-  width: 293px;
-}
-.banner-title p {
-  font-size: 1em;
+  margin: 5%;
+  width: 100%;
+  @include flex;
+  @include flex-column;
 }
 
 .banner-icons {
   color: white;
-  display:flex ;
-  flex-flow:column;
-  justify-content: center;
+  @include flex;
+  @include flex-column;
   width: 100%;
-  margin-left: 35%;
-}
-
-.banner-icons div {
-  width: 50%;
+  align-items: flex-end;
+  margin-right: 15%;
+  margin-top: 2%;
 }
 
 .banner-links {
   margin-bottom: 0.5em;
-  padding: 1em;
+  padding: 10px 5px 10px 5px;
 }
 
 .banner-register{
-  flex-direction: row;
+  @include flex-row;
   background-color: orange;
+  width: 175px;
+}
+
+.banner-register div{
+  line-height: 15px;
+  padding: 0 10px 0 10px;
 }
 
 .learn-about_encompass-button{
-  font-size: 0.9em;
-  background-color: orange;
-  width: 150px;
+  font-size: 0.7em;
+  background-color: #fd8f3f;
+  width: 130px;
   padding: 10px;
   margin-left: 7%;
 }
 
 .banner-digital-mortgage{
-  flex-direction: row;
-  background-color: green;
+  @include flex-row;
+  background-color: #2da15a;
+  width: 175px;
 
 }
-.banner-dream-big{
-  flex-direction: row;
-  background-color: blue;
+
+.banner-digital-mortgage div{
+  line-height: 15px;
+  padding: 0 10px 0 10px;
 }
+
+.banner-dream-big{
+  @include flex-row;
+  background-color: #00527e;
+  width: 175px;
+}
+
+.banner-dream-big div{
+  line-height: 15px;
+  padding: 0 10px 0 10px;
+}
+
+.icon-img{
+  width: 45px;
+}
+
+.promise-of-digital-mortgage{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.promise-of-digital-mortgage div{
+  text-align: justify;
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+}
+
+.promise-of {
+  font-family: $base-font-family-sans;
+  color:green;
+  font-size: 2em;
+
+}
+
+
+
+
 
 .grid{
   display: flex;
@@ -184,4 +236,64 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.font-bold8{
+  font-family: $base-font-family-sans;
+  font-size:0.8em ;
+}
+
+.font-regular8{
+  font-family: $base-font-family-sans;
+  font-size:0.8em ;
+  font-weight: 100;
+}
+
+.font-regular8-light{
+  font-family: $base-font-family-sans;
+  font-size:0.8em ;
+}
+
+
+
+.font-bold5{
+  font-family: $base-font-family-sans;
+  font-size:0.5em ;
+}
+
+.font-regular5{
+  font-family: $base-font-family-sans;
+  font-size:0.5em ;
+  font-weight: 100;
+}
+
+.font-regular5-light{
+  font-family: $base-font-family-sans;
+  font-size:0.5em ;
+  font-weight: 200;
+}
+
+
+
+
+.font-bold10{
+  font-family: $base-font-family-sans;
+  font-size:2em ;
+  font-weight: 500;
+
+}
+
+.font-regular10{
+  font-family: $base-font-family-sans;
+  font-size:1em ;
+}
+
+.font-regular10-light{
+  font-family: $base-font-family-sans;
+  font-size:2.2em ;
+  font-weight: 100;
+}
+
+.row {
+  @include flex-row;
 }
