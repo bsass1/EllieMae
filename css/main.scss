@@ -60,7 +60,7 @@ body{
   background-size: contain;
   height: 42px;
   padding: 0;
-  margin: 20px;
+  margin: 2% 10% 2% 10%;
   width: 184px !important;
   display: inline-flex;
 }
@@ -85,7 +85,14 @@ body{
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  margin-right: 15%;
+}
+
+.lock-icon{
+  width: 17px;
+  height: 26px;
+  padding-top: 5px;
 }
 
 .login div{
@@ -96,7 +103,10 @@ body{
   padding: 20px 0;
   position: relative;
   height: 20px;
-  color: #009dc6;
+  color: #41c6e3;
+  font-family: $base-font-family-sans;
+  font-size: 0.9em;
+  margin: 0 30% 0 10%;
   @include flex;
   @include flex-flow-row;
   @include flex-justify-content-space-around;
@@ -109,8 +119,8 @@ body{
   -o-background-size: 100%;
   background-size: 100%;
   @include flex;
-  height: 100%;
-  width: 100%;
+  //height: 100%;
+  //width: 100%;
 }
 
 .banner-title {
@@ -121,6 +131,10 @@ body{
   @include flex-column;
 }
 
+.banner-title .font-regular8{
+  width: 265px;
+  line-height: 25px;
+}
 .banner-icons {
   color: white;
   @include flex;
@@ -152,7 +166,6 @@ body{
   background-color: #fd8f3f;
   width: 130px;
   padding: 10px;
-  margin-left: 7%;
 }
 
 .banner-digital-mortgage{
@@ -188,10 +201,12 @@ body{
 }
 
 .promise-of-digital-mortgage div{
-  text-align: justify;
+  font-family: $base-font-family-sans;
+  font-size: 0.7em;
   text-align: justify;
   width: 60%;
   margin: auto;
+  padding: 30px;
 }
 
 .promise-of {
@@ -201,8 +216,80 @@ body{
 
 }
 
+.mortgage-solution {
+@include flex;
+@include flex-row;
+  border-style: dashed;
+  border-color: #e3e3e5;
+  border-width: 2px;
+  padding: 30px;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.mortgage-solution div{
+  padding: 5px;
+
+}
+
+.mortgage-solution div span{
+  display: block;
+  width: 50px;
+  font-size: 0.6em;
+  font-weight: 700;
+  color: #2486b6;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.dm-icons{
+  width: 55px;
+}
+
+.dm-icons-arrows{
+  width: 40px;
+  margin-bottom: 5%;
+  padding: 15px;
+}
 
 
+.learn-more-button{
+background-color: #5bc0de;
+  color: white;
+  margin: 5% 50% 5% 50%;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 5px 0px 5px;
+}
+
+.lending-platform{
+  background-image: url('../img/background/encompass-ng-background.png');
+  background-repeat:no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  @include flex;
+  height: 390px;
+  width: 100%;
+}
+.hear-customer-video{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.hear-customer-video img{
+  width: 40%;
+
+  margin: 2% 30% 0 30%;
+}
+.hear-customer-title{
+  font-family: $base-font-family-sans;
+  color: #46ab6c;
+  font-size: 2em;
+}
 
 
 .grid{
