@@ -15,13 +15,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="263" column="28" lean-forward="false" selection-start-line="263" selection-start-column="28" selection-end-line="263" selection-end-column="28" />
-              <folding />
-            </state>
+      <file leaf-file-name="client-video.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/client-video.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encompass-ng-lending-platform.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/encompass-ng-lending-platform.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -29,43 +33,28 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="705">
-              <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
-              <folding>
-                <marker date="1521506831777" expanded="true" signature="5811:5967" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="5987:6338" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6361:6404" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6431:6472" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6570:6590" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6601:6634" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6651:6680" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6688:6710" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6719:6747" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6757:6779" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6788:6810" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6821:6891" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6905:6956" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="6973:7044" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7067:7118" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7132:7183" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7200:7271" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7294:7365" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7380:7449" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7467:7516" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7540:7611" ph="{...}" />
-                <marker date="1521506831777" expanded="true" signature="7618:7832" ph="{...}" />
-              </folding>
+              <caret line="425" column="0" lean-forward="false" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="149" column="34" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="34" />
-              <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="159" column="24" lean-forward="true" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="320" column="20" lean-forward="false" selection-start-line="320" selection-start-column="20" selection-end-line="320" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,8 +98,8 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/helpers/_mixins.scss" />
         <option value="$PROJECT_DIR$/css/helpers/_mixins-flex.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -196,38 +185,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="background" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -247,10 +204,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,12 +324,12 @@
       <updated>1521051155710</updated>
       <workItem from="1521051158311" duration="326000" />
       <workItem from="1521052168724" duration="1000" />
-      <workItem from="1521131590951" duration="67842000" />
+      <workItem from="1521131590951" duration="73692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68169000" />
+    <option name="totallyTimeSpent" value="74019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="32" width="1431" height="777" extended-state="0" />
@@ -413,11 +366,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/client-video.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svgs/icons/x18.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -515,11 +463,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svgs/png/x18.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/encompass-ng-lending-platform.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -726,48 +669,33 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
-          <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
-          <folding>
-            <marker date="1521506831777" expanded="true" signature="5811:5967" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="5987:6338" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6361:6404" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6431:6472" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6570:6590" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6601:6634" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6651:6680" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6688:6710" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6719:6747" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6757:6779" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6788:6810" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6821:6891" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6905:6956" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="6973:7044" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7067:7118" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7132:7183" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7200:7271" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7294:7365" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7380:7449" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7467:7516" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7540:7611" ph="{...}" />
-            <marker date="1521506831777" expanded="true" signature="7618:7832" ph="{...}" />
-          </folding>
+          <caret line="425" column="0" lean-forward="false" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/encompass-ng-lending-platform.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/client-video.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="320" column="20" lean-forward="false" selection-start-line="320" selection-start-column="20" selection-end-line="320" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="149" column="34" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="34" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="263" column="28" lean-forward="false" selection-start-line="263" selection-start-column="28" selection-end-line="263" selection-end-column="28" />
+        <state relative-caret-position="352">
+          <caret line="159" column="24" lean-forward="true" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
           <folding />
         </state>
       </provider>
