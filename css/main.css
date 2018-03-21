@@ -23,9 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-body {
-  line-height: 1; }
-
 ol, ul {
   list-style: none; }
 
@@ -47,16 +44,25 @@ body {
   padding: 0px;
   width: 100%; }
 
+img {
+  max-width: 100%; }
+
+object {
+  max-width: 100%; }
+
 .logo {
   background: transparent url("../svgs/elliemae-no-tag-logo.svg") 0 0 no-repeat;
   background-size: contain;
   height: 42px;
   padding: 0;
-  margin: 20px;
+  margin: 2% 10% 2% 10%;
   width: 184px !important;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex; }
 
 .slogan {
+  font-family: 'Open Sans:Light';
   color: grey;
   font-size: 0.8em;
   display: inline-block;
@@ -73,19 +79,37 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-  font-size: 0.8em; }
+  font-size: 0.7em;
+  margin-right: 15%; }
+
+.lock-icon {
+  width: 17px;
+  height: 26px;
+  padding-top: 5px; }
 
 .login div {
-  padding: 10px; }
+  padding: 10px;
+  cursor: pointer; }
 
 .nav-bar {
   padding: 20px 0;
   position: relative;
   height: 20px;
-  color: #009dc6;
-  display: flex;
+  color: #41c6e3;
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  margin: 0 30% 0 10%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
   flex-flow: row;
-  justify-content: space-around; }
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  cursor: pointer; }
 
 .banner-container {
   background-image: url("../img/background/rooftop_blue_background.png");
@@ -94,76 +118,641 @@ body {
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around; }
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; }
 
 .banner-title {
   color: white;
-  margin-left: 7%;
-  width: 293px; }
+  margin: 5%;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
-.banner-title p {
-  font-size: 1em; }
+.banner-title .font-regular8 {
+  width: 265px;
+  line-height: 25px; }
 
 .banner-icons {
   color: white;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
-  margin-left: 35%; }
-
-.banner-icons div {
-  width: 50%; }
+  align-items: flex-end;
+  margin-right: 15%;
+  margin-top: 2%; }
 
 .banner-links {
   margin-bottom: 0.5em;
-  padding: 1em; }
+  padding: 10px 5px 10px 5px; }
 
 .banner-register {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
-  background-color: orange; }
+  background-color: orange;
+  width: 175px;
+  cursor: pointer; }
+
+.banner-register div {
+  line-height: 15px;
+  padding: 0 10px 0 10px; }
 
 .learn-about_encompass-button {
-  font-size: 0.9em;
-  background-color: orange;
-  width: 150px;
+  font-size: 0.7em;
+  background-color: #fd8f3f;
+  width: 130px;
   padding: 10px;
-  margin-left: 7%; }
+  cursor: pointer; }
 
 .banner-digital-mortgage {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
-  background-color: green; }
+  background-color: #2da15a;
+  width: 175px; }
+
+.banner-digital-mortgage div {
+  line-height: 15px;
+  padding: 0 10px 0 10px;
+  cursor: pointer; }
 
 .banner-dream-big {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
-  background-color: blue; }
+  background-color: #00527e;
+  width: 175px;
+  cursor: pointer; }
 
-.grid {
-  display: flex; }
+.banner-dream-big div {
+  line-height: 15px;
+  padding: 0 10px 0 10px; }
 
-.gutters {
-  margin: -10px 0 10px -10px; }
+.icon-img {
+  width: 45px; }
 
-.gutters > div {
-  padding: 10px 0 0 10px; }
+.promise-of-digital-mortgage {
+  text-align: center;
+  margin-top: 5%; }
 
-.half {
-  flex-basis: 50%; }
+.promise-of-digital-mortgage div {
+  font-family: "Open Sans";
+  font-size: 0.7em;
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding: 30px; }
 
-.third {
-  flex-basis: 33.33333%; }
+.promise-of {
+  font-family: "Open Sans";
+  color: green;
+  font-size: 2em; }
 
-.fourth {
-  flex-basis: 25%; }
+.mortgage-solution {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border-style: dashed;
+  border-color: #e3e3e5;
+  border-width: 2px;
+  padding: 30px;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around; }
 
-.fifth {
-  flex-basis: 20%; }
+.mortgage-solution div {
+  padding: 5px; }
 
-.vcenter {
-  display: flex;
+.mortgage-solution div span {
+  display: block;
+  width: 50px;
+  font-size: 0.6em;
+  font-weight: 700;
+  color: #2486b6;
+  padding-top: 5px;
+  text-align: center; }
+
+.dm-icons {
+  width: 55px; }
+
+.dm-icons-arrows {
+  width: 40px;
+  margin-bottom: 5%;
+  padding: 15px; }
+
+.learn-more-button {
+  background-color: #5bc0de;
+  border-radius: 2.5px;
+  color: white;
+  margin: 5% 44% 5% 44%;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  padding: 15px 5px 0px 5px;
+  cursor: pointer; }
+
+.hear-customer-video {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 5%; }
+
+.hear-customer-video img {
+  width: 40%;
+  margin: 2% 30% 0 30%;
+  cursor: pointer; }
+
+.hear-customer-title {
+  font-family: "Open Sans";
+  color: #46ab6c;
+  font-size: 2em;
+  margin: 0 23% 0% 36%; }
+
+.customer-video {
+  background-image: url("../img/client-video.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  width: 50%; }
+
+.customer-video object {
+  margin: 20%;
+  cursor: pointer; }
+
+.customer-caret {
+  width: 24%;
+  cursor: pointer; }
+
+.customer-caret object {
+  margin: 58% 10% 0 53%; }
+
+.lending-platform {
+  background-image: url("../img/background/encompass-ng-background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 390px; }
+
+.lp-encompass {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center; }
+  width: 100%;
+  color: white; }
+
+.lp-encompass div img {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: 50%; }
+
+.lp-innovate {
+  margin: 0 0% 5% 5%; }
+
+.see-solution-button {
+  background-color: #5bc0de;
+  border-radius: 2.5px;
+  color: white;
+  margin: 5% 0 5% 0%;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  padding: 15px 5px 0px 5px;
+  cursor: pointer; }
+
+.font-bold8 {
+  font-family: "Open Sans";
+  font-size: 0.8em; }
+
+.font-regular8 {
+  font-family: "Open Sans";
+  font-size: 0.8em;
+  font-weight: 100; }
+
+.font-regular8-light {
+  font-family: "Open Sans";
+  font-size: 0.8em; }
+
+.font-bold5 {
+  font-family: "Open Sans";
+  font-size: 0.5em; }
+
+.font-regular5 {
+  font-family: "Open Sans";
+  font-size: 0.5em;
+  font-weight: 100; }
+
+.font-regular5-light {
+  font-family: "Open Sans";
+  font-size: 0.5em;
+  font-weight: 200; }
+
+.font-bold10 {
+  font-family: "Open Sans";
+  font-size: 2em;
+  font-weight: 500; }
+
+.font-regular10 {
+  font-family: "Open Sans";
+  font-size: 1em; }
+
+.font-regular10-light {
+  font-family: "Open Sans";
+  font-size: 2.2em;
+  font-weight: 100; }
+
+@media screen and (max-width: 1420px) {
+  .lp-innovate {
+    margin: 0px 5% 10% 5%; }
+
+  .see-solution-button {
+    margin: 15px 0 5% 0%; }
+
+  .lp-encompass div img {
+    bottom: 75px; } }
+@media screen and (max-width: 1380px) {
+  .mortgage-solution {
+    width: 70%; } }
+@media screen and (max-width: 1250px) {
+  .see-solution-button {
+    margin: 5px 0px 13% 0%;
+    padding: 10px 2px 0px 10px; } }
+@media screen and (max-width: 1220px) {
+  .banner-title {
+    margin: 2% 2% 5% 3%; } }
+@media screen and (max-width: 1180px) {
+  .mortgage-solution {
+    width: 80%; } }
+@media screen and (max-width: 1120px) {
+  .lp-encompass {
+    justify-content: space-around; }
+
+  .lp-encompass div img {
+    bottom: 89px;
+    left: 67%; } }
+@media screen and (max-width: 1080px) {
+  .lp-innovate {
+    margin: 0% 0% 13% 10%; }
+
+  .banner-title {
+    margin: 0% 2% 3% 3%; }
+
+  .mortgage-solution {
+    width: 85%; }
+
+  .see-solution-button {
+    margin: 15px 20px 14% 0%;
+    padding: 15px 2px 0px 5px;
+    float: right; }
+
+  .lp-innovate span:nth-child(1) {
+    font-size: 1.8em; } }
+@media screen and (max-width: 1010px) {
+  .nav-bar {
+    width: 80%; }
+
+  .banner-title {
+    margin: 1% 0% 1% 5%; }
+
+  .banner-title span {
+    line-height: 34px; } }
+@media screen and (max-width: 975px) {
+  .mortgage-solution {
+    width: 55%;
+    flex-wrap: wrap; }
+
+  .login {
+    margin-right: 2%; }
+
+  .banner-icons {
+    margin-top: 1%;
+    margin-right: 5%; }
+
+  .banner-title .font-regular8 {
+    line-height: 20px; }
+
+  .banner-title {
+    width: 100%; } }
+@media screen and (max-width: 931px) {
+  .banner-icons {
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+    justify-items: baseline;
+    margin: 1px;
+    right: 90px; }
+
+  .banner-title {
+    flex-direction: row;
+    flex-wrap: wrap; }
+
+  .banner-title span {
+    line-height: 1.2em; }
+
+  .promise-of-digital-mortgage {
+    margin-top: 15%; }
+
+  .banner-container {
+    height: 275px; } }
+@media screen and (max-width: 865px) {
+  .banner-title span {
+    line-height: 0.8em; }
+
+  .banner-icons {
+    position: relative;
+    right: 27%; }
+
+  .banner-dream-big {
+    height: 66px; }
+
+  .promise-of {
+    width: 95%; }
+
+  .hear-customer-title {
+    position: relative;
+    bottom: 149px;
+    width: 50%;
+    margin-left: auto; }
+
+  .hear-customer-video {
+    margin-top: -13%; }
+
+  .customer-video object:nth-child(1) {
+    width: 70px; } }
+@media screen and (max-width: 769px) {
+  .logo {
+    margin-top: 20px; }
+
+  .logo span {
+    font-size: 0.6em;
+    width: 100px; }
+
+  .banner-title .font-regular10-light {
+    font-size: 1.5em; }
+
+  .banner-title .font-bold10 {
+    font-size: 1.5em; }
+
+  .banner-title span {
+    line-height: 0.6em; }
+
+  .banner-title .font-regular8 {
+    font-size: small; }
+
+  .learn-about_encompass-button {
+    height: 13px;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 15px;
+    margin-top: 15px; }
+
+  .lp-innovate {
+    margin-top: -67px; }
+
+  .lp-encompass div img {
+    bottom: 108px; }
+
+  .lp-encompass div:nth-child(1) {
+    flex-basis: 215px; }
+
+  .lp-innovate span:nth-child(1) {
+    font-size: 1.4em;
+    line-height: 25px; }
+
+  .lp-innovate .font-regular8-light {
+    font-size: 0.6em; }
+
+  .customer-video object:nth-child(1) {
+    width: 60px; } }
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-top: 20px; }
+
+  .logo span {
+    font-size: 0.6em;
+    width: 100px; }
+
+  .nav-bar {
+    flex-flow: column;
+    margin-top: 119px; }
+
+  .banner-container {
+    margin-top: 60px;
+    width: 140%; }
+
+  .banner-title .font-regular8 {
+    visibility: hidden; }
+
+  .learn-about_encompass-button {
+    position: absolute;
+    top: 500px;
+    left: 20px; } }
+@media screen and (max-width: 450px) {
+  .banner-icons {
+    right: 46%; }
+
+  .promise-of-digital-mortgage {
+    margin-top: 25%; }
+
+  .mortgage-solution {
+    width: 27%; }
+
+  .mortgage-solution {
+    margin-right: 18%; }
+
+  .promise-of-digital-mortgage {
+    margin-left: 16%;
+    width: 100%; }
+
+  .mortgage-solution .dm-icons-arrows {
+    display: block;
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Safari */
+    transform: rotate(90deg);
+    margin-right: 18%; }
+
+  .lending-platform {
+    position: relative;
+    left: 18%; }
+
+  .lp-encompass {
+    height: 0px;
+    position: relative; }
+
+  .lp-encompass span {
+    visibility: hidden; }
+
+  .lp-encompass div img {
+    bottom: -49px; }
+
+  .hear-customer-title {
+    position: relative;
+    bottom: 277px;
+    width: 55%;
+    font-size: 1.3em; }
+
+  .hear-customer-video {
+    position: relative;
+    bottom: 240px;
+    left: 75px; }
+
+  .customer-video object:nth-child(1) {
+    width: 40px; } }
+@media screen and (max-width: 420px) {
+  .banner-title span {
+    visibility: hidden; }
+
+  .learn-about_encompass-button {
+    top: 337px; }
+
+  .banner-icons {
+    right: 36%;
+    width: 372px;
+    flex-flow: column;
+    top: 190px; }
+
+  .promise-of {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px; }
+
+  .promise-of-digital-mortgage {
+    margin-top: 40%; }
+
+  .mortgage-solution {
+    width: 30%; }
+
+  .learn-more-button {
+    width: 100px;
+    height: 29px;
+    position: relative;
+    right: 10%; }
+
+  .lp-encompass div img {
+    bottom: 151px; }
+
+  .lp-encompass {
+    height: 403px; }
+
+  .lp-innovate span {
+    visibility: hidden; }
+
+  .lending-platform {
+    position: relative;
+    left: 11%; }
+
+  .lending-platform {
+    left: 11%; }
+
+  .see-solution-button {
+    float: none;
+    position: relative;
+    bottom: 12em;
+    left: 30px;
+    padding: 16px 0px 0px 0px;
+    margin: 0; }
+
+  .hear-customer-title {
+    position: relative;
+    bottom: 277px;
+    width: 250px;
+    font-size: 1.3em;
+    left: 16%; }
+
+  .hear-customer-video {
+    position: relative;
+    bottom: 160px;
+    left: 15%; } }
+@media screen and (max-width: 379px) {
+  .login {
+    margin-right: -11%; }
+
+  .see-solution-button {
+    bottom: 13em; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+
+
+
+
+//Positioning
+
+@mixin padding($values...) {
+  @each $var in $values {
+    padding: #{$var};
+  }
+}
+
+
+@mixin margin($values...) {
+  @each $var in $values {
+    margin: #{$var};
+  }
+}
+
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
