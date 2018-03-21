@@ -231,7 +231,6 @@ object {
   font-family: $base-font-family-sans;
   color: green;
   font-size: 2em;
-
 }
 
 .mortgage-solution {
@@ -248,7 +247,6 @@ object {
 
 .mortgage-solution div {
   padding: 5px;
-
 }
 
 .mortgage-solution div span {
@@ -659,15 +657,19 @@ object {
   .banner-icons {
     right: 46%;
   }
+
   .promise-of-digital-mortgage {
     margin-top: 25%;
   }
+
   .mortgage-solution {
     width: 27%;
   }
+
   .mortgage-solution {
     margin-right: 18%;
   }
+
   .promise-of-digital-mortgage {
     margin-left: 16%;
     width: 100%;
@@ -680,31 +682,38 @@ object {
     transform: rotate(90deg);
     margin-right: 18%;
   }
+
   .lending-platform {
     position: relative;
     left: 18%;
   }
+
   .lp-encompass {
     height: 0px;
     position: relative;
   }
+
   .lp-encompass span {
     visibility: hidden;
   }
+
   .lp-encompass div img {
     bottom: -49px;
   }
+
   .hear-customer-title {
     position: relative;
     bottom: 277px;
     width: 55%;
     font-size: 1.3em;
   }
+
   .hear-customer-video {
     position: relative;
     bottom: 240px;
     left: 75px;
   }
+
   .customer-video object:nth-child(1) {
     width: 40px;
   }
@@ -790,14 +799,13 @@ object {
     bottom: 160px;
     left: 15%;
   }
-
 }
 
 @media screen and (max-width: 379px) {
-
   .login {
     margin-right: -11%;
   }
+
   .see-solution-button {
     bottom: 13em;
   }
