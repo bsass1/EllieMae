@@ -184,3 +184,9 @@
   -ms-flex-line-pack: start;
   align-content: start;
 }
+
+@mixin display-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
